@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.PraktikaTest" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/bac</item>
+        <item name="colorPrimaryDark">@color/bac</item>
+        <item name="colorAccent">@color/dsdss</item>
+    </style>
+
+</resources>

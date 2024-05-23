@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".enter"
+    android:orientation="vertical"
+    android:background="@drawable/back">
+
+<LinearLayout
+    android:layout_marginTop="350dp"
+    android:layout_gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <EditText
+        android:textColor="@color/white"
+        android:id="@+id/email"
+        android:paddingTop="4dp"
+        android:gravity="center_horizontal"
+        android:textColorHint="@color/white"
+        android:background="@drawable/but"
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="40dp"
+        android:hint="@string/email"/>
+    <EditText
+        android:textColor="@color/white"
+        android:inputType="textPassword"
+        android:id="@+id/pas"
+        android:paddingTop="4dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:textColorHint="@color/white"
+        android:background="@drawable/but"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:hint="@string/pas"/>
+</LinearLayout>
+
+    <Button
+        android:id="@+id/enter"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/but"
+        android:onClick="en"
+        android:text="@string/enter"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

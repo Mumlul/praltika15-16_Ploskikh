@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Математический чемпион</string>
+    <string name="questions">Как сделать сальто?</string>
+    <string name="true_">Правда</string>
+    <string name="false_">Не правда</string>
+    <string name="correct_toast">Правильно</string>
+    <string name="incorrect_toast">Неправильно</string>
+    <string name="email">Введите email</string>
+    <string name="pas">Введите пароль</string>
+    <string name="enter">Войти</string>
+    <string name="q1">Первый признак равенства треугольников-по 2 сторонам и углу между ними</string>
+    <string name="q2">Второй признак равенства треугольников-по 3 сторонам</string>
+    <string name="q3">Третий признак равенства треугольников-по 3 сторонам</string>
+    <string name="q4">Цифры - это обозначения от 0-9</string>
+    <string name="q5">Один из разрядов у двухзначных чисел-единицы?</string>
+</resources>
